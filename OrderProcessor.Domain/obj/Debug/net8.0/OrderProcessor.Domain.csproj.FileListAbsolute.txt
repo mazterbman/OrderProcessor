@@ -1,0 +1,12 @@
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\bin\Debug\net8.0\OrderProcessor.Domain.deps.json
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\bin\Debug\net8.0\OrderProcessor.Domain.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\bin\Debug\net8.0\OrderProcessor.Domain.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.AssemblyInfoInputs.cache
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.AssemblyInfo.cs
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.csproj.CoreCompileInputs.cache
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.sourcelink.json
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\refint\OrderProcessor.Domain.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\ref\OrderProcessor.Domain.dll

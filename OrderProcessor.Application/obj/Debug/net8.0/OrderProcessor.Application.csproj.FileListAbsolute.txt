@@ -1,0 +1,16 @@
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\bin\Debug\net8.0\OrderProcessor.Application.deps.json
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\bin\Debug\net8.0\OrderProcessor.Application.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\bin\Debug\net8.0\OrderProcessor.Application.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\bin\Debug\net8.0\OrderProcessor.Domain.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\bin\Debug\net8.0\OrderProcessor.Domain.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.csproj.AssemblyReference.cache
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.AssemblyInfoInputs.cache
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.AssemblyInfo.cs
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.csproj.CoreCompileInputs.cache
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.sourcelink.json
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderPro.BE4EFBD3.Up2Date
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\refint\OrderProcessor.Application.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\ref\OrderProcessor.Application.dll

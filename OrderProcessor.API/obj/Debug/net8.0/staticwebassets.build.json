@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4cZS71iyJazj9Ku3+RVb2enkgAISZnHArMDKFZM27uY=",
+  "Source": "OrderProcessor.API",
+  "BasePath": "_content/OrderProcessor.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

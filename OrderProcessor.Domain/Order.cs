@@ -16,6 +16,8 @@ public class Order
         Status = OrderStatus.Pending;
         _orderItems = new List<OrderItem>(items);
     }
+    
+    private Order(){}
 
     public void AddItem(Guid productId, int count, decimal price)
         => AddItem(new OrderItem(productId, count, price));
