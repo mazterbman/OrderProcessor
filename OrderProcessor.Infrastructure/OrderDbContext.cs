@@ -17,5 +17,8 @@ public class OrderDbContext : DbContext
         {
             item.WithOwner();
         });
+
+        modelBuilder.Entity<Order>().Navigation(o => o.Items).HasField("_orderItems")
+            .UsePropertyAccessMode(PropertyAccessMode.Field);
     }
 }

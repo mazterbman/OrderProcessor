@@ -15,7 +15,7 @@ public class OrderService : IOrderService
     
     public async Task<Guid> CreateOrderAsync(CreateOrderRequest orderRequest, CancellationToken cancellationToken = default)
     {
-        var order = new Order(orderRequest.Items.Select(order => new OrderItem(order.ProductId, order.Count, order.Price)).ToList());
+        var order = new Order(orderRequest.Items.Select(req => new OrderItem(req.ProductId, req.Count, req.Price)).ToList());
         _orderRepository.Add(order);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
         return order.Id;
