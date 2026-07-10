@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AoqBf/8ppN3IgOEGmp0r7UfR56v8MiLvf44mKs4y7CE=",
+  "Source": "OrderProcessor.Grpc",
+  "BasePath": "_content/OrderProcessor.Grpc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

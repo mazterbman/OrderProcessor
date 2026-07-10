@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.API", "OrderProcessor.API\OrderProcessor.API.csproj", "{260DF96D-86E5-4EBC-9A4E-5644D6983FCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.Grpc", "OrderProcessor.Grpc\OrderProcessor.Grpc.csproj", "{6332E152-8A20-4A8D-BE73-E20D1BC11040}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{260DF96D-86E5-4EBC-9A4E-5644D6983FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260DF96D-86E5-4EBC-9A4E-5644D6983FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260DF96D-86E5-4EBC-9A4E-5644D6983FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6332E152-8A20-4A8D-BE73-E20D1BC11040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6332E152-8A20-4A8D-BE73-E20D1BC11040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6332E152-8A20-4A8D-BE73-E20D1BC11040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6332E152-8A20-4A8D-BE73-E20D1BC11040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

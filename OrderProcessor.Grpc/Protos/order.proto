@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+option csharp_namespace = "OrderProcessor.Grpc";
+
+message GetOrderByIdRequest {
+  // одно поле — id
+  string order_id = 1;
+}
+
+enum OrderStatus {
+  // не забудь про нулевое значение
+  ORDER_STATUS_UNSPECIFIED = 0;
+  ORDER_STATUS_PENDING = 1;
+  ORDER_STATUS_PROCESSING = 2;
+  ORDER_STATUS_COMPLETED = 3;
+  ORDER_STATUS_FAILED = 4;
+}
+
+message GetOrderByIdResponse {
+  // два поля: id + статус
+  string order_id = 1;
+  OrderStatus status = 2;
+}
+
+service OrderService {
+  // rpc ...
+  rpc GetOrder (GetOrderByIdRequest) returns (GetOrderByIdResponse);
+}
