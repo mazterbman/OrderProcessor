@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v8.0": {
       "OrderProcessor.Application/1.0.0": {
         "dependencies": {
+          "OrderProcessor.Contracts": "1.0.0",
           "OrderProcessor.Domain": "1.0.0"
         },
         "runtime": {
           "OrderProcessor.Application.dll": {}
+        }
+      },
+      "OrderProcessor.Contracts/1.0.0": {
+        "runtime": {
+          "OrderProcessor.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "OrderProcessor.Domain/1.0.0": {
@@ -26,6 +35,11 @@
   },
   "libraries": {
     "OrderProcessor.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessor.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

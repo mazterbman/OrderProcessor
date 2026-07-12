@@ -38,7 +38,14 @@ public class Order
         _orderItems.Add(new OrderItem(existing.ProductId, existing.Count + item.Count, existing.Price));
     }
     
-    public void StartProcessing() => Status = OrderStatus.Processing;
+    public void StartProcessing()
+    {
+        if (Status != OrderStatus.Pending)
+            throw new OrderValidationException($"Нельзя начать обработку заказа в статусе {Status}.");
+        
+        Status = OrderStatus.Processing;
+    }
+
     public void Complete() => Status = OrderStatus.Completed;
     public void Fail() => Status = OrderStatus.Failed;
 }

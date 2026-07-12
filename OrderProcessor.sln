@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.API", "Order
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.Grpc", "OrderProcessor.Grpc\OrderProcessor.Grpc.csproj", "{6332E152-8A20-4A8D-BE73-E20D1BC11040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.Contracts", "OrderProcessor.Contracts\OrderProcessor.Contracts.csproj", "{A65B765F-DA92-4684-84B9-46CFAD077DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.Warehouse", "OrderProcessor.Warehouse\OrderProcessor.Warehouse.csproj", "{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{6332E152-8A20-4A8D-BE73-E20D1BC11040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6332E152-8A20-4A8D-BE73-E20D1BC11040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6332E152-8A20-4A8D-BE73-E20D1BC11040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65B765F-DA92-4684-84B9-46CFAD077DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65B765F-DA92-4684-84B9-46CFAD077DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65B765F-DA92-4684-84B9-46CFAD077DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65B765F-DA92-4684-84B9-46CFAD077DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

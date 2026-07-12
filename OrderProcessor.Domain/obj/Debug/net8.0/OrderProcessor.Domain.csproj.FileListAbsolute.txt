@@ -10,3 +10,15 @@ G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\O
 G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\refint\OrderProcessor.Domain.dll
 G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.pdb
 G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\ref\OrderProcessor.Domain.dll
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\bin\Debug\net8.0\OrderProcessor.Domain.deps.json
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\bin\Debug\net8.0\OrderProcessor.Domain.dll
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\bin\Debug\net8.0\OrderProcessor.Domain.pdb
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.AssemblyInfoInputs.cache
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.AssemblyInfo.cs
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.csproj.CoreCompileInputs.cache
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.sourcelink.json
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.dll
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\refint\OrderProcessor.Domain.dll
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\OrderProcessor.Domain.pdb
+C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Domain\obj\Debug\net8.0\ref\OrderProcessor.Domain.dll

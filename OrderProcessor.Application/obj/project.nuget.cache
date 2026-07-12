@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/CjEcWIxAjk=",
+  "dgSpecHash": "7a4jDCt9TOw=",
   "success": true,
-  "projectFilePath": "G:\\GitHubRepo\\MyProjects\\OrderProcessor\\OrderProcessor.Application\\OrderProcessor.Application.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.18\\microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\GitHubRepo\\Riders\\OrderProcessor\\OrderProcessor.Application\\OrderProcessor.Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
