@@ -2255,23 +2255,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Илья\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHubRepo\\Riders\\OrderProcessor\\OrderProcessor.Infrastructure\\OrderProcessor.Infrastructure.csproj",
+      "projectUniqueName": "G:\\GitHubRepo\\MyProjects\\OrderProcessor\\OrderProcessor.Infrastructure\\OrderProcessor.Infrastructure.csproj",
       "projectName": "OrderProcessor.Infrastructure",
-      "projectPath": "C:\\GitHubRepo\\Riders\\OrderProcessor\\OrderProcessor.Infrastructure\\OrderProcessor.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHubRepo\\Riders\\OrderProcessor\\OrderProcessor.Infrastructure\\obj\\",
+      "projectPath": "G:\\GitHubRepo\\MyProjects\\OrderProcessor\\OrderProcessor.Infrastructure\\OrderProcessor.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "G:\\GitHubRepo\\MyProjects\\OrderProcessor\\OrderProcessor.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2286,8 +2286,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\GitHubRepo\\Riders\\OrderProcessor\\OrderProcessor.Application\\OrderProcessor.Application.csproj": {
-              "projectPath": "C:\\GitHubRepo\\Riders\\OrderProcessor\\OrderProcessor.Application\\OrderProcessor.Application.csproj"
+            "G:\\GitHubRepo\\MyProjects\\OrderProcessor\\OrderProcessor.Application\\OrderProcessor.Application.csproj": {
+              "projectPath": "G:\\GitHubRepo\\MyProjects\\OrderProcessor\\OrderProcessor.Application\\OrderProcessor.Application.csproj"
             }
           }
         }
@@ -2335,12 +2335,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.18, 8.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.18, 8.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.18, 8.0.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Илья\\.dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

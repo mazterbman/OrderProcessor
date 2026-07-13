@@ -11,4 +11,8 @@
         <PackageReference Include="Confluent.Kafka" Version="2.15.0" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OrderProcessor.Contracts\OrderProcessor.Contracts.csproj" />
+    </ItemGroup>
 </Project>

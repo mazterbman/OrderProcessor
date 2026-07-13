@@ -10,3 +10,15 @@ C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\Or
 C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\refint\OrderProcessor.Contracts.dll
 C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.pdb
 C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\ref\OrderProcessor.Contracts.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\bin\Debug\net8.0\OrderProcessor.Contracts.deps.json
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\bin\Debug\net8.0\OrderProcessor.Contracts.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\bin\Debug\net8.0\OrderProcessor.Contracts.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.AssemblyInfoInputs.cache
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.AssemblyInfo.cs
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.csproj.CoreCompileInputs.cache
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.sourcelink.json
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\refint\OrderProcessor.Contracts.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\OrderProcessor.Contracts.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Contracts\obj\Debug\net8.0\ref\OrderProcessor.Contracts.dll

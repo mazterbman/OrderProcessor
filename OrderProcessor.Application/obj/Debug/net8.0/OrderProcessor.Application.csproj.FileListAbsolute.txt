@@ -32,3 +32,5 @@ C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\
 C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\refint\OrderProcessor.Application.dll
 C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\OrderProcessor.Application.pdb
 C:\GitHubRepo\Riders\OrderProcessor\OrderProcessor.Application\obj\Debug\net8.0\ref\OrderProcessor.Application.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\bin\Debug\net8.0\OrderProcessor.Contracts.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.Application\bin\Debug\net8.0\OrderProcessor.Contracts.pdb
