@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.Contracts", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.Warehouse", "OrderProcessor.Warehouse\OrderProcessor.Warehouse.csproj", "{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.TestDb", "OrderProcessor.TestDb\OrderProcessor.TestDb.csproj", "{E53AE759-E5BA-4CCE-9079-7C4AFBEB47EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.LoadTests", "OrderProcessor.LoadTests\OrderProcessor.LoadTests.csproj", "{BC5DD384-876B-4885-A753-C47D46DB1649}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{307DBE59-C50B-4BD1-8EFE-10CCEBB785CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53AE759-E5BA-4CCE-9079-7C4AFBEB47EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53AE759-E5BA-4CCE-9079-7C4AFBEB47EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53AE759-E5BA-4CCE-9079-7C4AFBEB47EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53AE759-E5BA-4CCE-9079-7C4AFBEB47EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5DD384-876B-4885-A753-C47D46DB1649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5DD384-876B-4885-A753-C47D46DB1649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5DD384-876B-4885-A753-C47D46DB1649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5DD384-876B-4885-A753-C47D46DB1649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
