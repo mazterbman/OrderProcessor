@@ -1,5 +1,7 @@
 using Confluent.Kafka;
 using Microsoft.EntityFrameworkCore;
+using OpenTelemetry.Metrics;
+using OpenTelemetry.Resources;
 using OrderProcessor.Application;
 using OrderProcessor.Infrastructure;
 
@@ -18,6 +20,15 @@ builder.Services.AddSingleton<IProducer<string, string>>(sp =>
     var config = new ProducerConfig { BootstrapServers = bootstrapServers };
     return new ProducerBuilder<string, string>(config).Build();
 });
+
+builder.Services.AddOpenTelemetry()
+    .ConfigureResource(r => r.AddService("OrderProcessor.API"))
+    .WithMetrics(metrics =>
+    {
+        metrics
+            .AddAspNetCoreInstrumentation()
+            .AddConsoleExporter();
+    });
 
 builder.Services.AddSingleton<IEventPublisher, KafkaEventPublisher>();
 

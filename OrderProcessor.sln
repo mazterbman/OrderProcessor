@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.TestDb", "Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor.LoadTests", "OrderProcessor.LoadTests\OrderProcessor.LoadTests.csproj", "{BC5DD384-876B-4885-A753-C47D46DB1649}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doks", "doks", "{99C2DB00-42B4-4158-A8CD-84F0DE72E4A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

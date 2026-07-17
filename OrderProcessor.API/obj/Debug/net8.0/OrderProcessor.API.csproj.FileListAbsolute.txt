@@ -386,3 +386,9 @@ G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\runt
 G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\runtimes\win-x86\native\zstd.dll
 G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OrderProcessor.Contracts.dll
 G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OrderProcessor.Contracts.pdb
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OpenTelemetry.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OpenTelemetry.Api.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OpenTelemetry.Exporter.Console.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+G:\GitHubRepo\MyProjects\OrderProcessor\OrderProcessor.API\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll

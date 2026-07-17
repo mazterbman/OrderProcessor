@@ -65,6 +65,6 @@ public class WarehouseWorker : BackgroundService
             _logger.LogError(ex, "Ошибка во время работы WarehouseWorker");
         }
 
-        return false;
+        return true;
     }
 }

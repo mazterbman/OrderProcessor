@@ -21,7 +21,7 @@ var scenario = Scenario.Create("create_order", async context =>
     .WithoutWarmUp()
     .WithLoadSimulations(
         // 3. профиль нагрузки -- см. вопрос 2
-        Simulation.RampingInject(rate: 2000,
+        Simulation.RampingInject(rate: 100,
             interval: TimeSpan.FromSeconds(1),
             during: TimeSpan.FromSeconds(30))
     );

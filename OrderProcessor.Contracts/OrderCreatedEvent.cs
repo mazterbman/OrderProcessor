@@ -2,7 +2,7 @@
 
 public record OrderCreatedEvent(string OrderId, DateTimeOffset CreatedAt) : IEvent;
 
-// Пустой маркер интерфейс
+// Пустой интерфейс-маркер
 public interface IEvent
 {
     string OrderId { get; }

@@ -10,6 +10,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "8.0.25",
           "Microsoft.EntityFrameworkCore.Design": "9.0.17",
+          "OpenTelemetry.Exporter.Console": "1.17.0-rc.1",
+          "OpenTelemetry.Extensions.Hosting": "1.17.0-rc.1",
+          "OpenTelemetry.Instrumentation.AspNetCore": "1.16.0",
           "OrderProcessor.Application": "1.0.0",
           "OrderProcessor.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
@@ -715,7 +718,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.17",
           "Microsoft.Extensions.Options": "9.0.17",
-          "System.Diagnostics.DiagnosticSource": "9.0.17"
+          "System.Diagnostics.DiagnosticSource": "10.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
@@ -819,7 +822,7 @@
       "Microsoft.Extensions.Logging.Abstractions/9.0.17": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.17",
-          "System.Diagnostics.DiagnosticSource": "9.0.17"
+          "System.Diagnostics.DiagnosticSource": "10.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -984,6 +987,77 @@
           }
         }
       },
+      "OpenTelemetry/1.17.0-rc.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.17",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "9.0.17",
+          "Microsoft.Extensions.Logging.Configuration": "9.0.17",
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.17.0-rc.1"
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.17.0.2114"
+          }
+        }
+      },
+      "OpenTelemetry.Api/1.17.0-rc.1": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "10.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.17.0.2114"
+          }
+        }
+      },
+      "OpenTelemetry.Api.ProviderBuilderExtensions/1.17.0-rc.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.17",
+          "OpenTelemetry.Api": "1.17.0-rc.1"
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.17.0.2114"
+          }
+        }
+      },
+      "OpenTelemetry.Exporter.Console/1.17.0-rc.1": {
+        "dependencies": {
+          "OpenTelemetry": "1.17.0-rc.1"
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Exporter.Console.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.17.0.2114"
+          }
+        }
+      },
+      "OpenTelemetry.Extensions.Hosting/1.17.0-rc.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "9.0.17",
+          "OpenTelemetry": "1.17.0-rc.1"
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Extensions.Hosting.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.17.0.2114"
+          }
+        }
+      },
+      "OpenTelemetry.Instrumentation.AspNetCore/1.16.0": {
+        "dependencies": {
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.17.0-rc.1"
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
+            "assemblyVersion": "1.16.0.1140",
+            "fileVersion": "1.16.0.1140"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1091,11 +1165,11 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/9.0.17": {
+      "System.Diagnostics.DiagnosticSource/10.0.0": {
         "runtime": {
           "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.1726.26416"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
           }
         }
       },
@@ -1586,6 +1660,48 @@
       "path": "npgsql.entityframeworkcore.postgresql/9.0.4",
       "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512"
     },
+    "OpenTelemetry/1.17.0-rc.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w+n0tjJ9BhOTq20V9kpnm7RBzDKnZnvYrtU94GiU+K+EyWKfmFweNRKPPjJC98OXha/HpI+DATDuQugAXfmgrQ==",
+      "path": "opentelemetry/1.17.0-rc.1",
+      "hashPath": "opentelemetry.1.17.0-rc.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Api/1.17.0-rc.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZjDoZVJ8+Y8B4vjYhb5dMPZ06Ql+pxImjwHZWT2tC+C+rPZfN2N99ZugRJJv+TsaD1v0BLq01Pc1v5obx3Qsxg==",
+      "path": "opentelemetry.api/1.17.0-rc.1",
+      "hashPath": "opentelemetry.api.1.17.0-rc.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Api.ProviderBuilderExtensions/1.17.0-rc.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3QaVJ3EHFyxB3xCbdpgC7J0u8Zjdid57eMbQk7UpHQOHewe2ZBBp9wXEd5fO+a6TIMf/LYHivOD6DAWTUDWPAg==",
+      "path": "opentelemetry.api.providerbuilderextensions/1.17.0-rc.1",
+      "hashPath": "opentelemetry.api.providerbuilderextensions.1.17.0-rc.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Exporter.Console/1.17.0-rc.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tWoP9qCpPzpnXW8w3T0ddivK6Bc6hQdjK4upYwEVivLe4nCaHTi90EYjzZg+CIhtUxivd2efEj1xe+Jiy7KOUA==",
+      "path": "opentelemetry.exporter.console/1.17.0-rc.1",
+      "hashPath": "opentelemetry.exporter.console.1.17.0-rc.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Extensions.Hosting/1.17.0-rc.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C3B+eDGcaFLbu1gYJNKn8uL4IvWNfkvaUeqi1PdkdrGXb+CF6zG2SLafH6Z8zN7VvLRA3iolCd/KAq/6VWmr3g==",
+      "path": "opentelemetry.extensions.hosting/1.17.0-rc.1",
+      "hashPath": "opentelemetry.extensions.hosting.1.17.0-rc.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Instrumentation.AspNetCore/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vSC5EsmBVNcqXMh9BGkkq8zkoUjrg8ghBDb9zbKR8Bqjd05utjVgVft+fqsqQVsvlV5olGj1pBliHBngcIGSIg==",
+      "path": "opentelemetry.instrumentation.aspnetcore/1.16.0",
+      "hashPath": "opentelemetry.instrumentation.aspnetcore.1.16.0.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",
       "serviceable": true,
@@ -1670,12 +1786,12 @@
       "path": "system.composition.typedparts/7.0.0",
       "hashPath": "system.composition.typedparts.7.0.0.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/9.0.17": {
+    "System.Diagnostics.DiagnosticSource/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LnggxXVmkaGgG6JJ+fq1Jog5XYDwL/Me+rJg6ODvx/HiRHocUGED0K/CsOd/s1RJv+Lsi6tTf2Rnw25jyDG5BA==",
-      "path": "system.diagnostics.diagnosticsource/9.0.17",
-      "hashPath": "system.diagnostics.diagnosticsource.9.0.17.nupkg.sha512"
+      "sha512": "sha512-0KdBK+h7G13PuOSC2R/DalAoFMvdYMznvGRuICtkdcUMXgl/gYXsG6z4yUvTxHSMACorWgHCU1Faq0KUHU6yAQ==",
+      "path": "system.diagnostics.diagnosticsource/10.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512"
     },
     "System.Diagnostics.EventLog/9.0.17": {
       "type": "package",
